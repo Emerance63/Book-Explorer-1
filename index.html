@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/style.css" />
   </head>
-  <body id="Prime" class="text-white h-[50%]">
+  <body  class="footer-card text-white h-[50%]">
     <header>
       <nav class="Card shadow fixed top-0 left-0 right-0">
         <div
@@ -49,7 +49,7 @@
       </nav>
     </header>
 
-    <section class="flex justify-center items-center py-40">
+    <section  id="Prime" class="flex justify-center items-center py-40">
       <div>
         <div class="hero-card ml-4 mr-4 md:ml-0 md:mr-0">
           <p
@@ -64,7 +64,8 @@
             
           
           <p class="text-lg text-gray-300 text-center">
-            Explore our collection and find your next great read!
+             Search millions of books, save your favorites,
+      and build your reading list.
           </p>
         </div>
 
@@ -72,7 +73,7 @@
           <input
             type="text"
             placeholder="Search for books..."
-            class="bg-orange-200 px-4 py-2 rounded font-semibold shadow-lg shadow-orange-300/30"
+            class="bg-orange-200 px-4 py-2 rounded font-semibold placeholder:text-white"
           />
 
           <button
@@ -81,16 +82,51 @@
             Search
           </button>
         </div>
+         <div class="flex flex-wrap justify-center gap-4 mt-8 ">
+
+      <button class="bg-white/10 py-2 px-4 rounded">Philosophy</button>
+      <button class="bg-white/10 py-2 px-4 rounded">Science Fiction</button>
+      <button class="bg-white/10 py-2 px-4 rounded">Classic Literature</button>
+      <button class="bg-white/10 py-2 px-4 rounded">History</button>
+      <button class="bg-white/10 py-2 px-4 rounded">Psychology</button>
+
+    </div>
       </div>
+      
     </section>
 
-    <section>
-      <h1></h1>
-        <div>
+    <section class="footer-card">
+      <h1 class="text-2xl font-bold text-white ml-4 py-4 px-4">Book-Explorer</h1>
+        
+    <div id="booksContainer"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+    ></div>
 
-        </div>
     </section>
 
-    
+    <footer>
+    <div class="Card text-gray-300 shadow mt-10 py-4 px-6 flex flex-col md:flex-row justify-between items-center">
+      <div>
+        <p>© 2026 BookExplorer. Built with Tailwind + JavaScript.</p>
+      </div>
+      <div>
+       <a
+              href="#home"
+              class=" rounded py-2 px-4"
+              >Home</a
+            >
+            <a
+              href="#favorites"
+              class=" rounded py-2 px-4"
+              >Favorites</a
+            >
+            <a
+              href="#about"
+              class=" rounded py-2 px-4"
+              >About</a
+            > 
+      </div>
+    </div>
+    </footer>
   </body>
 </html>
