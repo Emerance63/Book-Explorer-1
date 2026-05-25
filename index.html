@@ -7,8 +7,8 @@
    <script src="https://cdn.tailwindcss.com"></script>
       <link rel="stylesheet" href="/style.css" />
 </head>
-<body id="Prime" class="text-white min-h-screen">
-    <header >
+<body id="Prime" class="text-white h-[50%]">
+  <header >
     <nav class="Card shadow fixed top-0 left-0 right-0 ">
         <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6 ">
           <div class="flex items-center gap-3">
@@ -24,12 +24,33 @@
             <a href="#about" class="inline-block hover:bg-orange-600 rounded py-2 px-4">About</a>
           </div>
 
-           <div
+             <div
                 class="hamburger-menu flex md:hidden flex-col justify-between cursor-pointer h-6 w-8">
                <div class="block h-1 bg-white rounded"></div>
                <div class="block h-1 bg-white rounded"></div>
                <div class="block h-1 bg-white rounded"></div>
-           </div>
+             </div>
+          </div>
+    </nav>
+    </header>
+
+<section class="flex justify-center items-center py-40 ">
+  <div>
+
+    <div class="hero-card ml-4 mr-4 md:ml-0 md:mr-0">
+      <p class="text-xl font-bold text-orange-500 tracking-widest py-4 md:text-center">Power by Open Library</p>
+      <h2 class="text-4xl font-bold mb-4 md:text-8xl">Discover your next <br> <span class="text-orange-500 text-3xl font-bold md:text-6xl">favorite Book</span></h2>
+      <p class="text-lg text-gray-300">Explore our collection and find your next great read!</p>
+    </div>
+
+    <div class="mt-8 flex flex-row gap-1 ml-4 md:gap-2 ml-0">
+
+      <input type="text" placeholder="Search for books..." class="bg-orange-200  px-4 py-2 rounded font-semibold shadow-lg shadow-orange-300/30">
+
+      <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">Search</button>
+    </div>
+  </div>
+</section>           
         
 </body>
 </html>
