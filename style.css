@@ -15,9 +15,11 @@
   #4a1f12,
   #6b341c
 );
-
 }
 .hero-card{
-  font-family: 'pompous', serif;
-
+   font-family: c;
 }
+
+.footer-card{ 
+      background: linear-gradient(to bottom right,rgb(105, 100, 100),rgba(249, 213, 213, 0.932));
+    }
