@@ -7,7 +7,7 @@
    <script src="https://cdn.tailwindcss.com"></script>
       <link rel="stylesheet" href="/style.css" />
 </head>
-<body id="Prime" class="text-white min-h-screen">
+<body id="Prime" class="text-white h-[50%]">
   <header >
     <nav class="Card shadow fixed top-0 left-0 right-0 ">
         <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6 ">
@@ -34,19 +34,20 @@
     </nav>
     </header>
 
-<section class="flex justify-center items-center py-40 mt-40 ">
+<section class="flex justify-center items-center py-40 ">
   <div>
 
-    <div>
-      <h2 class="text-3xl font-bold mb-4">Discover your next <span class="text-orange-500">favorite Book</span></h2>
-      <p class="text-lg">Explore our collection and find your next great read!</p>
+    <div class="hero-card">
+      <p class="text-xl font-bold text-orange-500 text-center tracking-widest py-4">Power by Open Library</p>
+      <h2 class="text-8xl font-bold mb-4">Discover your next <br> <span class="text-orange-500 text-6xl font-bold">favorite Book</span></h2>
+      <p class="text-lg text-gray-300">Explore our collection and find your next great read!</p>
     </div>
 
-    <div>
+    <div class="mt-8 flex gap-2">
 
-      <input type="text" placeholder="Search for books..." class="bg-gray-800 text-white placeholder:text-gray-500 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <input type="text" placeholder="Search for books..." class="bg-orange-200  px-4 py-2 rounded font-semibold shadow-lg shadow-orange-300/30">
 
-      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search</button>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">Search</button>
     </div>
   </div>
 </section>           
